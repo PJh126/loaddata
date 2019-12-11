@@ -1,11 +1,10 @@
 # loaddata
-load data from local file(.csv) to mysql, making load big file possible（LOAD DATA INFILE 导入数据， 解决大文件load data不执行问题）
+LOAD DATA INFILE 导入数据， 解决大文件load data不执行问题
 
 
-快速向本地mysql服务器（localhost）和云端服务器导入大量数据。如果本地csv文件太大，直接用mysql中的load data或自己用python写的load data会不执行，无法完成上传。
+本项目能快速向本地mysql服务器（localhost）和云端服务器导入大量数据。
 
-当你要运行时，只需修改程序开始部分的初始化数据即可
-
+如果本地csv文件太大，直接用mysql命令行中的load data命令或用自己写的python脚本会不执行，无法完成上传。
 
 对于一个56万行本项目能快速完成数据上传工作，程序运行情况
 
